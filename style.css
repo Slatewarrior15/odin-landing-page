@@ -33,6 +33,7 @@ body{
 
 .logo{
     font-size: 24px;
+    font-weight: 900;
     color:#F9FAF8;
     margin-right: 200px;
 }
@@ -92,16 +93,18 @@ a{
 .sign-up{
     background-color: #3882F6;
     color: #E5E7EB;
-    width: 100px ;
+    width: 125px ;
+    height: 50px;
     padding: 5px;
     text-align: center;
     font-size: 16px;
     border-radius: 12px;
+    border-color:#E5E7EB ;
     margin-top: 5px;
 }
 .quote-section{
     background-color: #E5E7EB;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,22 +129,38 @@ a{
     font-weight: 900;
 }
 .cta {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
 }
 
 .container {
-    min-width: 250px;
+    height: 100px;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    flex-direction: column;
     padding: 10px 15px;
     gap: 10px;
  
 }
 
-.container p {
-  margin: 0;
+.text .title{
+    font-weight: 900;
+   
 }
+
+.footer{
+    height: 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+
 
